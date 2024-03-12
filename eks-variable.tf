@@ -23,7 +23,7 @@ variable "cluster_endpoint_private_access" {
 
 variable "cluster_endpoint_public_access" {
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "cluster_endpoint_public_access_cidrs" {
